@@ -1,0 +1,89 @@
+
+.skills-hobbies{
+   width: auto;
+   height: auto;
+}
+
+.skills-hobbies__titulo{
+   font-style: normal;
+   font-weight: bold;
+   font-size: 22px;
+   line-height: 26px;
+   text-align: center;
+   margin: 1rem 0 2rem;
+}
+
+.skills-hobbies__container{
+   margin: 0;
+   display: grid;
+   
+   grid-template-columns: 48% 48%;
+   row-gap: 2rem;
+   column-gap: 4%;
+   
+   height: auto;
+   width: auto;
+   
+}
+
+.box{
+   background-color: var(--bg-blanco);
+   padding-left: 16px; 
+   padding-bottom: 10px;
+   line-height: 0;
+   
+   height: 34vw;
+   width: 100%;
+
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+
+}
+
+.box__img{
+   width: 30px;
+   height: 35px;
+   background-repeat: no-repeat;
+   background-size: contain;
+}
+
+.box__img--html{
+   background-image: url(../img/skills/html-5.svg);   
+}
+
+.box__img--css{
+   background-image: url(../img/skills/css.svg);
+}
+
+.box__img--javaScript{
+   background-image: url(../img/skills/javaScript.svg);
+}
+
+.box__img--java{
+   background-image: url(../img/skills/java.png);
+}
+
+.box__img--mysql{
+   background-image: url(../img/skills/mysql.png);
+}
+
+.box__img--leer{
+   background-image: url(../img/hobbies/libro-abierto.png);
+}
+
+.box__img--music{
+   background-image: url(../img/hobbies/music.svg);
+}
+
+.box__img--movies{
+   background-image: url(../img/hobbies/movies.png);
+}
+
+.box__img--series{
+   background-image: url(../img/hobbies/pantalla.svg);
+}
+
+.box__img--draw{
+   background-image: url(../img/hobbies/draw.png);
+}

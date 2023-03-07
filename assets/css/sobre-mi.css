@@ -1,0 +1,25 @@
+.sobre-mi{
+   height: auto;
+   width: auto;   
+}
+
+.sobre-mi__titulo{
+   font-weight: bold;
+   font-size: 32px;
+   line-height: 38px;
+}
+
+.sobre-mi__descripcion{
+   line-height: 1.67rem;
+   padding: 16px 0;
+   width: 100%; 
+}
+
+/*
+.sobre-mi__firma{
+   height: 52px;
+   width: 140px;
+   background-image: url(../img/firma.png);
+   background-repeat: no-repeat;
+
+}*/

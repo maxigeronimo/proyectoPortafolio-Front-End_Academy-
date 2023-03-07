@@ -1,0 +1,201 @@
+@media screen and (max-width: 420px) {
+   .menu__link {
+      font-size: 0.8rem;
+   }
+   .lista__img{
+      width: 1rem;
+      height: 1rem;  
+   }
+   .big-box__img--innovaccion {
+      width: 30%;
+   }
+
+   .encabezado__imagen {
+      width: 50%;
+      margin-left: 20%
+   }
+}
+
+
+@media screen and (min-width: 768px) {
+   .seccion {
+      padding: 0vw 6vw 2vw 8vw ;
+   }
+
+   .seccion--azul {
+      padding-top: 6vw;
+      padding-bottom: 2rem;
+   }
+
+   .lista__img{
+      width: 1.5rem;
+      height: 1.5rem;  
+   }
+
+   .encabezado {
+      flex-direction: row;
+      margin: 2rem 0 1rem;
+   }
+
+   .encabezado__principal {
+      width: 80%;
+   }
+
+   .encabezado__imagen {
+      width: 20%;
+   }
+
+   .skills-hobbies {
+      padding-top: 2vw;
+   }
+
+   .skills-hobbies__container {
+      grid-template-columns: 30% 30% 30%;
+      row-gap: 2rem;
+      column-gap: 5%;
+   }
+
+   .box {
+      height: 17vw;
+   }
+
+   .formacion-academica__container {
+      grid-template-columns: 32% 32% 32%;
+      row-gap: 2rem;
+      column-gap: 2%;
+   }
+
+   .proyectos-todos__contenedor {
+      margin: 0;
+   }
+
+   .big-box {
+      margin: 0;
+   }
+
+   .big-box__img-container {
+      height: 15vw;
+      line-height: 15vw;
+   }
+
+   .big-box__img {
+      width: 100%;
+   }
+
+   .big-box__img--innovaccion {
+      width: 40%;
+   }
+
+   .contacto {
+      margin: 0;
+   }
+
+}
+
+
+@media screen and (min-width: 1024px) {
+   .menu__item--oculto {
+      display: inline-block;
+   }
+
+   .menu__item {
+      padding: 0 1rem 0 0;
+   }
+
+   .lista__img{
+      width: 1rem;
+      height: 1rem;  
+   }
+
+   .encabezado__imagen{
+      height: auto;
+      background-size: 50%;
+   }
+
+   .encabezado {
+      align-items: center;
+   }
+
+   .seccion {
+      padding: 0vw 8vw 2vw 8vw;
+   }
+
+   .seccion-contacto {
+      padding-bottom: 6rem;
+   }
+
+   .encabezado__titulo {
+      font-size: 45px;
+      line-height: 55px;
+   }
+
+   .encabezado__principal {
+      width: 60%;
+   }
+
+   .encabezado__imagen {
+      width: 25%;
+   }
+
+   .skills-hobbies__container {
+      grid-template-columns: 19% 19% 19% 19% 19%;
+      row-gap: 2rem;
+      column-gap: 1%;
+   }
+
+   .box {
+      height: 15vw;
+   }
+
+   .big-box__img-container {
+      height: 20vw;
+      line-height: 20vw;
+   }
+
+   .big-box__img--innovaccion {
+      width: 75%;
+   }
+
+   .proyecto {
+      display: flex;
+      align-items: center;
+   }
+
+   .proyecto__container-imagen {
+      width: 70%;
+   }
+
+   .proyecto__descripcion {
+      width: 30%;
+      margin-left: 1rem;
+   }
+
+   .proyecto:nth-child(even) .proyecto__descripcion {
+      order: -1;
+   }
+
+   .contacto {
+      margin-top: 2rem;
+      display: flex;
+      align-items: stretch;
+   }
+
+   .contacto__imagen {
+      display: block;
+      width: 40%;
+      object-fit: cover;
+
+   }
+
+   .contacto__texto {
+      margin-left: 0.5rem;
+      width: 60%;
+      height: auto;
+   }
+
+   .contacto__titulo {
+      margin-top: 0;
+      font-size: 32px;
+      line-height: 38px;
+   }
+}
